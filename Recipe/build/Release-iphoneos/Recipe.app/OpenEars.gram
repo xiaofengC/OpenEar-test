@@ -1,0 +1,3 @@
+#JSGF V1.0;
+grammar samplegrammar;
+public <move> = FORWARD | BACKWARD | LEFT | RIGHT | TURN;

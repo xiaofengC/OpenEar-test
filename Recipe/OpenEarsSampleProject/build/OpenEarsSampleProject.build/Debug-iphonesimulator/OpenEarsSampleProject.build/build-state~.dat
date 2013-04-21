@@ -1,0 +1,583 @@
+TOpenEarsSampleProject
+v7
+r0
+t336528762.555762
+cCheck dependencies
+cProcessInfoPlistFile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/Info.plist OpenEarsSampleProject-Info.plist
+cCompileXIB /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/MainWindow.xib
+cCompileXIB /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/feat.params ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/means ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/noisedict ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/transition_matrices ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/variances ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.languagemodel "Language Model/OpenEars1.languagemodel"
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/sendump ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/mdef ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/icon.png icon.png
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.dic "Language Model/OpenEars1.dic"
+cCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/cmu07a.dic ../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic
+cProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dwjbzmdhoddyufbfdnpwscispogd/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/main.o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectAppDelegate.o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectViewController.o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBEC300000000001340C0
+t1298054851
+s1261760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEBB00000000000007D0
+t1298054843
+s2000
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004D54CFBC0000000000000EAD
+t1297403836
+s3757
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libiconv.2.4.0.dylib
+c000000004AD4F6DB00000000000049DC
+t1255470811
+s18908
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/AudioConstants.h
+c000000004E234DA00000000000000B02
+t1310936480
+s2818
+i"OpenEarsConfig.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/AudioSessionManager.h
+c000000004E234DA600000000000006B8
+t1310936486
+s1720
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i"AudioConstants.h"
+i"OpenEarsConfig.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/ContinuousModel.h
+c000000004E234DAC0000000000000A41
+t1310936492
+s2625
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/FliteController.h
+c000000004E234DAE0000000000000A5A
+t1310936494
+s2650
+i<AVFoundation/AVFoundation.h>
+i"flite.h"
+i"OpenEarsEventsObserver.h"
+i"AudioConstants.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/LanguageModelGenerator.h
+c000000004E234DB800000000000004FD
+t1310936504
+s1277
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/OpenEarsConfig.h
+c000000004E234DCC00000000000010D3
+t1310936524
+s4307
+i"OpenEarsVoiceConfig.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/OpenEarsEventsObserver.h
+c000000004E234DD40000000000000F9A
+t1310936532
+s3994
+i<Foundation/NSObject.h>
+i"AudioConstants.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/Classes/include/PocketsphinxController.h
+c000000004E234DD80000000000001078
+t1310936536
+s4216
+i<Foundation/Foundation.h>
+i"OpenEarsEventsObserver.h"
+i"ContinuousModel.h"
+i"AudioConstants.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsLibrary/build/Debug-iphonesimulator/libOpenEarsLibrary.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/flite-1.4-release/include/OpenEarsVoiceConfig.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.h
+c000000004E234E020000000000000FF2
+t1310936578
+s4082
+i<UIKit/UIKit.h>
+i"AudioSessionManager.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m
+c000000004E234E040000000000001DEA
+t1310936580
+s7658
+i"OpenEarsSampleProjectAppDelegate.h"
+i"OpenEarsSampleProjectViewController.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.h
+c000000004E234E0A0000000000001C01
+t1310936586
+s7169
+i<UIKit/UIKit.h>
+i"OpenEarsEventsObserver.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm
+c000000004E234E0C0000000000008367
+t1310936588
+s33639
+i"OpenEarsSampleProjectViewController.h"
+i"PocketsphinxController.h"
+i"FliteController.h"
+i"LanguageModelGenerator.h"
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.dic
+c000000004D6A96BE000000000000007F
+t1298831038
+s127
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.languagemodel
+c000000004D6A96BE000000000000046E
+t1298831038
+s1134
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/MainWindow.xib
+c000000004C851FA20000000000006B58
+t1283792802
+s27480
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+c000000004D6AA0380000000000009343
+t1298833464
+s37699
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch
+c000000004C7BEE1000000000000000D3
+t1283190288
+s211
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app.dSYM
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/Info.plist
+t1314835957
+s718
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/MainWindow.nib
+t1314835958
+s1709
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.dic
+t1314835958
+s127
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.languagemodel
+t1314835958
+s1134
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEarsSampleProject
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEarsSampleProjectViewController.nib
+t1314835959
+s6153
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/PkgInfo
+t1314835957
+s8
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/cmu07a.dic
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/feat.params
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/icon.png
+t1314835958
+s6053
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/mdef
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/means
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/noisedict
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/sendump
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/transition_matrices
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/variances
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProject.LinkFileList
+c000000004E5ECDF50000000000000266
+t1314835957
+s614
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectAppDelegate.o
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectViewController.o
+t2
+s0
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/main.o
+t1314835962
+s6436
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/icon.png
+c000000004D61381E00000000000017A5
+t1298216990
+s6053
+
+N/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m
+c000000004D3BAD0600000000000000E6
+t1295756550
+s230
+i<UIKit/UIKit.h>
+
+N/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch.gch
+t1314835961
+s15842736
+
+N/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dwjbzmdhoddyufbfdnpwscispogd/OpenEarsSampleProject_Prefix.pch.gch
+t1314835962
+s16907568
+
+NOpenEarsSampleProject-Info.plist
+c000000004DD6D14400000000000003B1
+t1305923908
+s945
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies336528757#336528757#0(0"0(0#1#0"8610048640#0"0#
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectAppDelegate.o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336528762.207357
+e336528762.352765
+r0
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectAppDelegate.o
+x/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from ../OpenEarsLibrary/Classes/include/AudioConstants.h:22,
+o                 from ../OpenEarsLibrary/Classes/include/AudioSessionManager.h:28,
+o                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.h:40,
+o                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m:39:
+o../OpenEarsLibrary/Classes/include/OpenEarsConfig.h:34:32: error: OpenEarsVoiceConfig.h: No such file or directory
+lSLF07#2@124"Compile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m336528762#336528762#0(562"In file included from ../OpenEarsLibrary/Classes/include/AudioConstants.h:22,                 from ../OpenEarsLibrary/Classes/include/AudioSessionManager.h:28,                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.h:40,                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m:39:../OpenEarsLibrary/Classes/include/OpenEarsConfig.h:34:32: error: OpenEarsVoiceConfig.h: No such file or directory1(4@48"OpenEarsVoiceConfig.h: No such file or directory336528762#447#115#5(7@138"In file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m336528762#18446744073709551615#0#0(6@116"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m332629380#39#0#39#0#0"0(7@138"In file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.h336528762#18446744073709551615#0#0(6@116"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.h332629378#40#0#40#0#0"0(7@78"In file included from ../OpenEarsLibrary/Classes/include/AudioSessionManager.h336528762#18446744073709551615#0#0(6@56"../OpenEarsLibrary/Classes/include/AudioSessionManager.h336528762#28#0#28#0#0"0(7@73"In file included from ../OpenEarsLibrary/Classes/include/AudioConstants.h336528762#18446744073709551615#0#0(6@51"../OpenEarsLibrary/Classes/include/AudioConstants.h336528762#22#0#22#0#0"0(13@103"OpenEarsVoiceConfig.h: No such file or directory in ../OpenEarsLibrary/Classes/include/OpenEarsConfig.h336528762#18446744073709551615#0#0(6@51"../OpenEarsLibrary/Classes/include/OpenEarsConfig.h336528762#34#0#34#0#0"0(6@51"../OpenEarsLibrary/Classes/include/OpenEarsConfig.h336528762#34#0#34#0#28"*: No such file or directory0(0#0#116"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m8607465056#2812"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -F/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources/i386 -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m -o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectAppDelegate.o1#
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectViewController.o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s336528762.279783
+e336528762.555673
+r0
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectViewController.o
+x/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+oIn file included from ../OpenEarsLibrary/Classes/include/AudioConstants.h:22,
+o                 from ../OpenEarsLibrary/Classes/include/OpenEarsEventsObserver.h:23,
+o                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.h:39,
+o                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm:35:
+o../OpenEarsLibrary/Classes/include/OpenEarsConfig.h:34:32: error: OpenEarsVoiceConfig.h: No such file or directory
+oIn file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm:37:
+o../OpenEarsLibrary/Classes/include/FliteController.h:23:18: error: flite.h: No such file or directory
+lSLF07#2@128"Compile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm336528762#336528762#0(821"In file included from ../OpenEarsLibrary/Classes/include/AudioConstants.h:22,                 from ../OpenEarsLibrary/Classes/include/OpenEarsEventsObserver.h:23,                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.h:39,                 from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm:35:../OpenEarsLibrary/Classes/include/OpenEarsConfig.h:34:32: error: OpenEarsVoiceConfig.h: No such file or directoryIn file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm:37:../OpenEarsLibrary/Classes/include/FliteController.h:23:18: error: flite.h: No such file or directory2(4@48"OpenEarsVoiceConfig.h: No such file or directory336528762#457#115#5(7@142"In file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm336528762#18446744073709551615#0#0(6@120"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm332629388#35#0#35#0#0"0(7@141"In file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.h336528762#18446744073709551615#0#0(6@119"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.h332629386#39#0#39#0#0"0(7@81"In file included from ../OpenEarsLibrary/Classes/include/OpenEarsEventsObserver.h336528762#18446744073709551615#0#0(6@59"../OpenEarsLibrary/Classes/include/OpenEarsEventsObserver.h336528762#23#0#23#0#0"0(7@73"In file included from ../OpenEarsLibrary/Classes/include/AudioConstants.h336528762#18446744073709551615#0#0(6@51"../OpenEarsLibrary/Classes/include/AudioConstants.h336528762#22#0#22#0#0"0(13@103"OpenEarsVoiceConfig.h: No such file or directory in ../OpenEarsLibrary/Classes/include/OpenEarsConfig.h336528762#18446744073709551615#0#0(6@51"../OpenEarsLibrary/Classes/include/OpenEarsConfig.h336528762#34#0#34#0#0"0(6@51"../OpenEarsLibrary/Classes/include/OpenEarsConfig.h336528762#34#0#34#0#28"*: No such file or directory0(4@34"Flite.h: No such file or directory336528762#719#102#2(7@142"In file included from /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm336528762#18446744073709551615#0#0(6@120"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm332629388#37#0#37#0#0"0(13@90"Flite.h: No such file or directory in ../OpenEarsLibrary/Classes/include/FliteController.h336528762#18446744073709551615#0#0(6@52"../OpenEarsLibrary/Classes/include/FliteController.h336528762#23#0#23#0#0"0(6@52"../OpenEarsLibrary/Classes/include/FliteController.h336528762#23#0#23#0#28"*: No such file or directory0(0#0#120"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm8613876512#2840"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -F/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources/i386 -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dwjbzmdhoddyufbfdnpwscispogd/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm -o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/OpenEarsSampleProjectViewController.o1#
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/main.o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336528762.205961
+e336528762.279267
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/main.o
+x/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m336528762#336528762#0(0"0(0#0#80"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m8610077952#2748"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -F/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources/i386 -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/main.m -o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/MainWindow.xib
+s336528757.595639
+e336528758.445034
+r1
+xCompileXIB
+x/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib336528757#336528758#0(0"0(0#0#88"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/MainWindow.xib8611733472#689"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/MainWindow.nib /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+s336528757.596907
+e336528760.446782
+r1
+xCompileXIB
+x/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+lSLF07#2@50"CompileXIB OpenEarsSampleProjectViewController.xib336528757#336528760#0(0"0(0#0#113"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib8610999584#739"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEarsSampleProjectViewController.nib /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.dic "Language Model/OpenEars1.dic"
+s336528758.485981
+e336528758.510201
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.dic
+xLanguage Model/OpenEars1.dic
+lSLF07#2@33"Copy Language Model/OpenEars1.dic336528758#336528758#0(0"0(0#0#102"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.dic8606597664#607"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.dic" /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app0#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.languagemodel "Language Model/OpenEars1.languagemodel"
+s336528758.453510
+e336528758.507950
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEars1.languagemodel
+xLanguage Model/OpenEars1.languagemodel
+lSLF07#2@43"Copy Language Model/OpenEars1.languagemodel336528758#336528758#0(0"0(0#0#112"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.languagemodel8607893824#617"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.languagemodel" /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app0#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/cmu07a.dic ../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic
+s336528758.490450
+e336528758.509359
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/cmu07a.dic
+x../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US: No such file or directory
+lSLF07#2@65"Copy ../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic336528758#336528758#0(259"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#134"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic8606530080#637"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/feat.params ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params
+s336528758.445167
+e336528758.496139
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/feat.params
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@81"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#150"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params8612815200#653"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/icon.png icon.png
+s336528758.459641
+e336528758.501438
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png336528758#336528758#0(0"0(0#0#82"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/icon.png8607295584#585"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/icon.png /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app0#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/mdef ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef
+s336528758.457601
+e336528758.494318
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/mdef
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@74"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#143"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef8607396224#646"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/means ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means
+s336528758.446929
+e336528758.499736
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/means
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@75"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#144"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means8612479168#647"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/noisedict ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict
+s336528758.447934
+e336528758.490329
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/noisedict
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@79"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#148"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict8611114208#651"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/sendump ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump
+s336528758.455605
+e336528758.485852
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/sendump
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@77"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#146"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump8607475936#649"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/transition_matrices ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices
+s336528758.449355
+e336528758.495641
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/transition_matrices
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@89"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#158"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices8610281536#661"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CCpResource build/Debug-iphonesimulator/OpenEarsSampleProject.app/variances ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances
+s336528758.451408
+e336528758.505194
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/OpenEarsSampleProject.app/variances
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances
+o/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directory
+lSLF07#2@79"Copy ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances336528758#336528758#0(274"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1336528758#18446744073709551615#0#0(1@0"0(0#0#148"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances8610061920#651"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app1#
+
+CGenerateDSYMFile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app.dSYM /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEarsSampleProject
+r0
+
+CLd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/OpenEarsSampleProject normal i386
+r0
+
+CProcessInfoPlistFile /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/Info.plist OpenEarsSampleProject-Info.plist
+s336528757.562520
+e336528757.595507
+r1
+xProcessInfoPlistFile
+x/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/Info.plist
+xOpenEarsSampleProject-Info.plist
+lSLF07#2@40"Process OpenEarsSampleProject-Info.plist336528757#336528757#0(0"0(0#0#106"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject-Info.plist8606860704#626"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OpenEarsSampleProject-Info.plist -genpkginfo /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app/Info.plist0#
+
+CProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s336528760.447043
+e336528762.109976
+r1
+xProcessPCH
+x/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch.gch
+xOpenEarsSampleProject_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile OpenEarsSampleProject_Prefix.pch336528760#336528762#0(0"0(0#0#106"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch8607159488#2591"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -F/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources/i386 -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources -c /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch -o /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-anztajtuoirjyzcadeycdxnizapi/OpenEarsSampleProject_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dwjbzmdhoddyufbfdnpwscispogd/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s336528760.448255
+e336528762.205839
+r1
+xProcessPCH++
+x/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dwjbzmdhoddyufbfdnpwscispogd/OpenEarsSampleProject_Prefix.pch.gch
+xOpenEarsSampleProject_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile OpenEarsSampleProject_Prefix.pch336528760#336528762#0(0"0(0#0#106"/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch8604384992#2612"    cd /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -F/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources/i386 -I/Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphonesimulator/OpenEarsSampleProject.build/DerivedSources -c /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch -o /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dwjbzmdhoddyufbfdnpwscispogd/OpenEarsSampleProject_Prefix.pch.gch0#
+
+CTouch /Users/xiaofengchen/Documents/CMULibraries/OpenEars/OpenEarsSampleProject/build/Debug-iphonesimulator/OpenEarsSampleProject.app
+r0
+

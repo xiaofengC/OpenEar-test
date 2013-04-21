@@ -1,0 +1,3 @@
+#JSGF V1.0;
+grammar samplegrammar;
+public <move> = NEXT STEP| BACK | REPEAT | STOP | GO ;

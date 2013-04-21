@@ -1,0 +1,63 @@
+TRecipe
+v7
+r1
+
+N/Users/xiaofengchen/Documents/Recipe/Resources/Default.png
+c000000004E5FAA0900000000000077AB
+t1314892297
+s30635
+
+N/Users/xiaofengchen/Documents/Recipe/Resources/Icon.png
+c000000004E5FAA09000000000000246F
+t1314892297
+s9327
+
+N/Users/xiaofengchen/Documents/Recipe/Resources/fps_images.png
+c000000004E5FAA09000000000000183B
+t1314892297
+s6203
+
+N/Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app
+t2
+s0
+
+N/Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app/Contents/Info.plist
+t2
+s0
+
+N/Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app/Contents/Resources/fps_images.png
+t2
+s0
+
+NResources/Info.plist
+c000000004E5FAA09000000000000038E
+t1314892297
+s910
+
+CCpResource build/Debug/Recipe.app/Contents/Resources/Default.png Resources/Default.png
+r0
+
+CCpResource build/Debug/Recipe.app/Contents/Resources/Icon.png Resources/Icon.png
+r0
+
+CCpResource build/Debug/Recipe.app/Contents/Resources/fps_images.png Resources/fps_images.png
+r0
+
+CProcessInfoPlistFile /Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app/Contents/Info.plist Resources/Info.plist
+r0
+
+CTouch /Users/xiaofengchen/Documents/Recipe/build/Debug/Recipe.app
+r0
+

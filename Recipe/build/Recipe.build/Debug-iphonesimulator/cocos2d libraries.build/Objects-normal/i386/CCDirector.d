@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCDirector.m \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCDirector.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/ccConfig.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/ccTypes.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/EAGLView.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/ESRenderer.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCTouchDelegateProtocol.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCCamera.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCNode.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCAction.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCTexture2D.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCProtocols.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/CCArray.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/ccCArray.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCScheduler.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/uthash.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCActionManager.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCTextureCache.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCLabelAtlas.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCAtlasNode.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCTextureAtlas.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/ccMacros.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/ccExceptions.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCTransition.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCScene.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCTouchDispatcher.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCSpriteFrameCache.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCSpriteFrame.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCBitmapFontAtlas.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCSpriteSheet.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/glu.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/OpenGL_Internal.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/Support/CGPointExtension.h \
+  /Users/xiaofengchen/Documents/Recipe/libs/cocos2d/CCLayer.h

@@ -1,0 +1,1083 @@
+TOpenEarsSampleProject
+v3
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/Info.plist OpenEarsSampleProject-Info.plist
+cCompileXIB /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xib
+cCompileXIB /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params build/Debug-iphoneos/OpenEarsSampleProject.app/feat.params
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means build/Debug-iphoneos/OpenEarsSampleProject.app/means
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict build/Debug-iphoneos/OpenEarsSampleProject.app/noisedict
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices build/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances build/Debug-iphoneos/OpenEarsSampleProject.app/variances
+cCpResource "Language Model/OpenEars1.languagemodel" build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodel
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump build/Debug-iphoneos/OpenEarsSampleProject.app/sendump
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef build/Debug-iphoneos/OpenEarsSampleProject.app/mdef
+cCopyPNGFile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png icon.png
+cCpResource "Language Model/OpenEars1.dic" build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic
+cCpResource ../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic build/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic
+cProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/main.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectAppDelegate.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectViewController.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/main.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectAppDelegate.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectViewController.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject normal armv6
+cLd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject normal armv7
+cCreateUniversalBinary /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject normal "armv6 armv7"
+cGenerateDSYMFile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject
+cProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision" /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+cTouch /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent
+cCodeSign /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004E6AC95E0000000000000110
+t1315621214
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D99FDC6000000000022E2B0
+t1301937606
+s2286256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D99FDB000000000000007D0
+t1301937584
+s2000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D99F8B000000000003FF380
+t1301936304
+s4191104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D99F8830000000000000A23
+t1301936259
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93E13C00000000003532B0
+t1301537084
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004D93E1E60000000000000EAD
+t1301537254
+s3757
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D99FAFA0000000000CA2AE0
+t1301936890
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/setjmp.h
+c000000004D4F6E900000000000000438
+t1297051280
+s1080
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004D09AC6C00000000000010DD
+t1292479596
+s4317
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libiconv.2.4.0.dylib
+c000000004D93D72100000000001FB0E0
+t1301534497
+s2076896
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_alloc.h
+c0000000049DCA432000000000000109B
+t1239196722
+s4251
+i<windows.h>
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_audio.h
+c000000004A0091B20000000000001595
+t1241551282
+s5525
+i"cst_wave.h"
+i"cst_hrg.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_cart.h
+c0000000049DCA4320000000000000F10
+t1239196722
+s3856
+i"cst_file.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_item.h"
+i"cst_relation.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_endian.h
+c0000000049DCA4320000000000000FA4
+t1239196722
+s4004
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_error.h
+c0000000049DCA4320000000000000F87
+t1239196722
+s3975
+i<stdlib.h>
+i<setjmp.h>
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_features.h
+c000000004E6E51C30000000000001268
+t1315852739
+s4712
+i"cst_alloc.h"
+i"cst_val.h"
+i"cst_string.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_file.h
+c0000000049DCA432000000000000134C
+t1239196722
+s4940
+i<windows.h>
+i<winbase.h>
+i<PalmOS.h>
+i<System/StdIOPalm.h>
+i<stdio.h>
+i<windows.h>
+i<stdarg.h>
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_hrg.h
+c0000000049DCA4320000000000000C57
+t1239196722
+s3159
+i"cst_file.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_item.h"
+i"cst_relation.h"
+i"cst_utterance.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_item.h
+c0000000049DCA4320000000000001957
+t1239196722
+s6487
+i"cst_file.h"
+i"cst_features.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_lexicon.h
+c000000004A2EA4E60000000000001192
+t1244570854
+s4498
+i"cst_item.h"
+i"cst_lts.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_lts.h
+c0000000049DCA4320000000000000F89
+t1239196722
+s3977
+i"cst_val.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_phoneset.h
+c0000000049DCA4320000000000000F7F
+t1239196722
+s3967
+i"cst_file.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_item.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_regex.h
+c0000000049DCA4320000000000001E4B
+t1239196722
+s7755
+i"cst_file.h"
+i"cst_string.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_relation.h
+c0000000049DCA4320000000000000EC7
+t1239196722
+s3783
+i"cst_file.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_item.h"
+i"cst_utterance.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_string.h
+c0000000049DCA4320000000000000F83
+t1239196722
+s3971
+i<string.h>
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_sts.h
+c000000004A90117000000000000017C4
+t1250955632
+s6084
+i"cst_wave.h"
+i"cst_audio.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_synth.h
+c0000000049DCA4320000000000001261
+t1239196722
+s4705
+i"cst_hrg.h"
+i"cst_tokenstream.h"
+i"cst_voice.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_tokenstream.h
+c0000000049DCA4320000000000001564
+t1239196722
+s5476
+i"cst_alloc.h"
+i"cst_string.h"
+i"cst_file.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_track.h
+c0000000049DCA4320000000000000E83
+t1239196722
+s3715
+i"cst_file.h"
+i"cst_error.h"
+i"cst_alloc.h"
+i"cst_endian.h"
+i"cst_file.h"
+i"cst_val.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_units.h
+c0000000049DCA4320000000000000E70
+t1239196722
+s3696
+i"cst_file.h"
+i"cst_hrg.h"
+i"cst_sts.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_utt_utils.h
+c0000000049DCA4320000000000000EE6
+t1239196722
+s3814
+i"cst_hrg.h"
+i"cst_wave.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_utterance.h
+c0000000049DCA4320000000000000FD2
+t1239196722
+s4050
+i"cst_file.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_item.h"
+i"cst_relation.h"
+i"cst_alloc.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_val.h
+c000000004A28EF3F0000000000001870
+t1244196671
+s6256
+i"cst_file.h"
+i"cst_string.h"
+i"cst_error.h"
+i"cst_alloc.h"
+i"cst_val_defs.h"
+i"cst_val_const.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_val_const.h
+c0000000049DCA43200000000000040B8
+t1239196722
+s16568
+i"cst_val_defs.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_val_defs.h
+c0000000049DCA43200000000000018BB
+t1239196722
+s6331
+i<stdlib.h>
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_voice.h
+c0000000049DCA4320000000000000E5E
+t1239196722
+s3678
+i"cst_file.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_utterance.h"
+i"cst_relation.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/cst_wave.h
+c0000000049DCA4320000000000001AC5
+t1239196722
+s6853
+i"cst_file.h"
+i"cst_error.h"
+i"cst_alloc.h"
+i"cst_endian.h"
+i"cst_file.h"
+i"cst_val.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/CMULibraries/flite-1.4-release/include/flite.h
+c000000004A85874000000000000016F8
+t1250264896
+s5880
+i"cst_string.h"
+i"cst_regex.h"
+i"cst_val.h"
+i"cst_features.h"
+i"cst_item.h"
+i"cst_relation.h"
+i"cst_utterance.h"
+i"cst_wave.h"
+i"cst_track.h"
+i"cst_cart.h"
+i"cst_phoneset.h"
+i"cst_voice.h"
+i"cst_audio.h"
+i"cst_utt_utils.h"
+i"cst_lexicon.h"
+i"cst_synth.h"
+i"cst_units.h"
+i"cst_tokenstream.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/AudioConstants.h
+c000000004E234DA00000000000000B02
+t1310936480
+s2818
+i"OpenEarsConfig.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/AudioSessionManager.h
+c000000004E234DA600000000000006B8
+t1310936486
+s1720
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i"AudioConstants.h"
+i"OpenEarsConfig.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/ContinuousModel.h
+c000000004E234DAC0000000000000A41
+t1310936492
+s2625
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/FliteController.h
+c000000004E234DAE0000000000000A5A
+t1310936494
+s2650
+i<AVFoundation/AVFoundation.h>
+i"flite.h"
+i"OpenEarsEventsObserver.h"
+i"AudioConstants.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/LanguageModelGenerator.h
+c000000004E234DB800000000000004FD
+t1310936504
+s1277
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/OpenEarsConfig.h
+c000000004E234DCC00000000000010D3
+t1310936524
+s4307
+i"OpenEarsVoiceConfig.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/OpenEarsEventsObserver.h
+c000000004E234DD40000000000000F9A
+t1310936532
+s3994
+i<Foundation/NSObject.h>
+i"AudioConstants.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/Classes/include/PocketsphinxController.h
+c000000004E234DD80000000000001078
+t1310936536
+s4216
+i<Foundation/Foundation.h>
+i"OpenEarsEventsObserver.h"
+i"ContinuousModel.h"
+i"AudioConstants.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/build/Debug-iphoneos/libOpenEarsLibrary.a
+c000000004E6E804E0000000005A40DC0
+t1315864654
+s94637504
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/flite-1.4-release/include/OpenEarsVoiceConfig.h
+c000000004E6E51C30000000000000365
+t1315852739
+s869
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params
+c000000004E6E51C300000000000000B5
+t1315852739
+s181
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef
+c000000004B9A7F3400000000002ED266
+t1268416308
+s3068518
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means
+c000000004B9A7F340000000000009C4C
+t1268416308
+s40012
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict
+c000000004B9A7F34000000000000019B
+t1268416308
+s411
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump
+c000000004B9A7F3400000000001E2F57
+t1268416308
+s1978199
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices
+c000000004B9A7F3400000000000009A0
+t1268416308
+s2464
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances
+c000000004B9A7F340000000000009C4C
+t1268416308
+s40012
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic
+c000000004B9A7F3700000000003185A4
+t1268416311
+s3245476
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.h
+c000000004E234E020000000000000FF2
+t1310936578
+s4082
+i<UIKit/UIKit.h>
+i"AudioSessionManager.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m
+c000000004E234E040000000000001DEA
+t1310936580
+s7658
+i"OpenEarsSampleProjectAppDelegate.h"
+i"OpenEarsSampleProjectViewController.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.h
+c000000004E234E0A0000000000001C01
+t1310936586
+s7169
+i<UIKit/UIKit.h>
+i"OpenEarsEventsObserver.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm
+c000000004E234E0C0000000000008367
+t1310936588
+s33639
+i"OpenEarsSampleProjectViewController.h"
+i"PocketsphinxController.h"
+i"FliteController.h"
+i"LanguageModelGenerator.h"
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.dic
+c000000004D6A96BE000000000000007F
+t1298831038
+s127
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.languagemodel
+c000000004D6A96BE000000000000046E
+t1298831038
+s1134
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xib
+c000000004C851FA20000000000006B58
+t1283792802
+s27480
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+c000000004D6AA0380000000000009343
+t1298833464
+s37699
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch
+c000000004C7BEE1000000000000000D3
+t1283190288
+s211
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+t1315864698
+s748
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM
+t1315864694
+s102
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/Info.plist
+t1315864655
+s963
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/MainWindow.nib
+t1315864668
+s1693
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic
+t1315864672
+s127
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodel
+t1315864668
+s1134
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject
+t1315864686
+s19439248
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProjectViewController.nib
+t1315864669
+s6153
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/PkgInfo
+t1315864655
+s8
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist
+t1315864655
+s485
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic
+t1315864673
+s3245476
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+t1315864694
+s7636
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/feat.params
+t1315864668
+s181
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png
+t1315864673
+s8350
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/mdef
+t1315864672
+s3068518
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/means
+t1315864668
+s40012
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/noisedict
+t1315864668
+s411
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/sendump
+t1315864671
+s1978199
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices
+t1315864668
+s2464
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/variances
+t1315864668
+s40012
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject
+t1315864686
+s9666128
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject.LinkFileList
+c000000004E6E804F000000000000022D
+t1315864655
+s557
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectAppDelegate.o
+t1315864676
+s59364
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectViewController.o
+t1315864676
+s111588
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/main.o
+t1315864675
+s10108
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject
+t1315864685
+s9662032
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject.LinkFileList
+c000000004E6E804F000000000000022D
+t1315864655
+s557
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectAppDelegate.o
+t1315864679
+s59364
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectViewController.o
+t1315864680
+s111588
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/main.o
+t1315864679
+s10108
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent
+t1315864694
+s661
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/icon.png
+c000000004D61381E00000000000017A5
+t1298216990
+s6053
+
+N/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m
+c000000004D3BAD0600000000000000E6
+t1295756550
+s230
+i<UIKit/UIKit.h>
+
+N/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/4EF5C4C3-247F-484B-9B10-F6757C6361E3.mobileprovision
+c000000004E6CF4FD0000000000001DD4
+t1315763453
+s7636
+
+N/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision
+c000000004E7114F40000000000001E10
+t1316033780
+s7696
+
+N/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch.gch
+t1315864675
+s10209180
+
+N/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch.gch
+t1315864679
+s11290412
+
+N/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch.gch
+t1315864675
+s10835756
+
+N/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch.gch
+t1315864676
+s10676124
+
+NOpenEarsSampleProject-Info.plist
+c000000004DD6D14400000000000003B1
+t1305923908
+s945
+
+CBuild AST from /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m
+r0
+
+CBuild AST from /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm
+r0
+
+CBuild AST from /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesac6f187ab623b441^f0364b7ab623b441^---0#1#0#--18"Check dependencies
+
+CCodeSign /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+s337884795.175856
+e337884804.295127
+r1
+xCodeSign
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+o/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app: replacing invalid existing signature
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CodeSign build/Debug-iphoneos/OpenEarsSampleProject.app971e2d7bb623b441^83854b84b623b441^-146"/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app: replacing invalid existing signature-0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/0000000000000000^863"CodeSign build/Debug-iphoneos/OpenEarsSampleProject.app    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Xiaofeng Chen (GM89242TP3)" --resource-rules=/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist --entitlements /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectAppDelegate.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337557475.868507
+e337557476.034474
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectAppDelegate.o
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m397cdee3b71eb441^cfdb08e4b71eb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m0000000000000000^2722"CompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectAppDelegate.o Classes/OpenEarsSampleProjectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv6 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectAppDelegate.o
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectViewController.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s337557476.035084
+e337557476.422439
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectViewController.o
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm142109e4b71eb441^07256ce4b71eb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm0000000000000000^2759"CompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectViewController.o Classes/OpenEarsSampleProjectViewController.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv6 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProjectViewController.o
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/main.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337557475.703882
+e337557475.867896
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/main.o
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m4792b4e3b71eb441^e336dee3b71eb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m0000000000000000^2594"CompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/main.o main.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv6 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/main.o
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectAppDelegate.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337557479.846634
+e337557479.985810
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectAppDelegate.o
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.ma4e1d8e7b71eb441^fb5dfce7b71eb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m0000000000000000^2722"CompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectAppDelegate.o Classes/OpenEarsSampleProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv7 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectAppDelegate.m -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectAppDelegate.o
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectViewController.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s337557479.986011
+e337557480.326587
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectViewController.o
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mmc494fce7b71eb441^569b53e8b71eb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm0000000000000000^2759"CompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectViewController.o Classes/OpenEarsSampleProjectViewController.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv7 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Classes/OpenEarsSampleProjectViewController.mm -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProjectViewController.o
+
+CCompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/main.o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337557479.763296
+e337557479.846441
+r1
+xCompileC
+xbuild/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/main.o
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m16fbc3e7b71eb441^f2b0d8e7b71eb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m0000000000000000^2594"CompileC build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv7 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -include /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/main.m -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xib
+s337557455.801183
+e337557468.602360
+r1
+xCompileXIB
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compiling /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xibef38cdcfb71eb441^7e369adcb71eb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xib0000000000000000^657"CompileXIB MainWindow.xib    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/MainWindow.nib /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+s337557455.801377
+e337557469.233554
+r1
+xCompileXIB
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib1f49cdcfb71eb441^43ca3bddb71eb441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib0000000000000000^732"CompileXIB OpenEarsSampleProjectViewController.xib    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProjectViewController.nib /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProjectViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCopyPNGFile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png icon.png
+s337557471.474629
+e337557473.419513
+r1
+xCopyPNGFile
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png
+xicon.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png icon.png5eba79dfb71eb441^ad686be1b71eb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/icon.png0000000000000000^619"CopyPNGFile build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png icon.png    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/icon.png /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/icon.png
+
+CCpResource "Language Model/OpenEars1.dic" build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic
+s337557472.140395
+e337557472.318251
+r1
+xCpResource
+xLanguage Model/OpenEars1.dic
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic041e24e0b71eb441^b37851e0b71eb441^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic0000204d2205f041^594"CpResource "Language Model/OpenEars1.dic" build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.dic    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.dic" /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource "Language Model/OpenEars1.languagemodel" build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodel
+s337557468.746127
+e337557468.777687
+r1
+xCpResource
+xLanguage Model/OpenEars1.languagemodel
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodel
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodeld21abfdcb71eb441^5019c7dcb71eb441^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodel0000204d2205f041^624"CpResource "Language Model/OpenEars1.languagemodel" build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEars1.languagemodel    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/Language Model/OpenEars1.languagemodel" /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params build/Debug-iphoneos/OpenEarsSampleProject.app/feat.params
+s337557468.605478
+e337557468.674382
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/feat.params
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/feat.paramse21e9bdcb71eb441^52baacdcb71eb441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/feat.params0000204d2205f041^684"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params build/Debug-iphoneos/OpenEarsSampleProject.app/feat.params    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/feat.params /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef build/Debug-iphoneos/OpenEarsSampleProject.app/mdef
+s337557469.233749
+e337557472.139568
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/mdef
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/mdeffaf13bddb71eb441^c8d223e0b71eb441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/mdef0000204d2205f041^663"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef build/Debug-iphoneos/OpenEarsSampleProject.app/mdef    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/mdef /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means build/Debug-iphoneos/OpenEarsSampleProject.app/means
+s337557468.674703
+e337557468.734354
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/means
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/meansbbefacdcb71eb441^713dbedcb71eb441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/means0000204d2205f041^666"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means build/Debug-iphoneos/OpenEarsSampleProject.app/means    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/means /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict build/Debug-iphoneos/OpenEarsSampleProject.app/noisedict
+s337557468.734495
+e337557468.737781
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/noisedict
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/noisedictc021bcdcb71eb441^5a4abedcb71eb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/noisedict0000204d2205f041^678"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict build/Debug-iphoneos/OpenEarsSampleProject.app/noisedict    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/noisedict /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump build/Debug-iphoneos/OpenEarsSampleProject.app/sendump
+s337557468.777844
+e337557471.474311
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/sendump
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/sendump7e35c7dcb71eb441^c57079dfb71eb441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/sendump0000204d2205f041^672"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump build/Debug-iphoneos/OpenEarsSampleProject.app/sendump    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/sendump /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices build/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices
+s337557468.737897
+e337557468.741076
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices9cfabcdcb71eb441^a853bedcb71eb441^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices0000204d2205f041^708"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices build/Debug-iphoneos/OpenEarsSampleProject.app/transition_matrices    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/transition_matrices /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances build/Debug-iphoneos/OpenEarsSampleProject.app/variances
+s337557468.741193
+e337557468.745955
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/variances
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/variancesbfd2bddcb71eb441^0e2cbfdcb71eb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/variances0000204d2205f041^678"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances build/Debug-iphoneos/OpenEarsSampleProject.app/variances    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/hmm/en_US/hub4wsj_sc_8k/variances /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource ../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic build/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic
+s337557472.318671
+e337557473.027294
+r1
+xCpResource
+x../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic2eaa51e0b71eb441^780c07e1b71eb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic0000204d2205f041^651"CpResource ../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic build/Debug-iphoneos/OpenEarsSampleProject.app/cmu07a.dic    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/../CMULibraries/pocketsphinx-0.6.1/model/lm/en_US/cmu07a.dic /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist
+s337557455.600314
+e337557455.799005
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist4bcba4cfb71eb441^f08acccfb71eb441^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist0000204d2205f041^657"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
+CCreateUniversalBinary /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject normal "armv6 armv7"
+s337557486.268488
+e337557486.954464
+r1
+xCreateUniversalBinary
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Create universal binary /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProjecte5d244eeb71eb441^b262f4eeb71eb441^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject0000204d2205f041^830"CreateUniversalBinary build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject normal "armv6 armv7"    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject -output /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject
+
+CGenerateDSYMFile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject
+s337557486.954920
+e337557494.631910
+r1
+xGenerateDSYMFile
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Generating /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM469af4eeb71eb441^22c4a1f6b71eb441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM0000204d2205f041^608"GenerateDSYMFile build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app.dSYM
+
+CLd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/OpenEarsSampleProject normal armv6
+r0
+
+CLd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject normal armv6
+s337557476.800735
+e337557486.267529
+r1
+xLd
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject
+xnormal
+xarmv6
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection185"Link /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject804acde4b71eb441^5f7d44eeb71eb441^---0#0#0#--1352"Ld build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject normal armv6    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -filelist /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -liconv.2.4.0 /Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/build/Debug-iphoneos/libOpenEarsLibrary.a -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv6/OpenEarsSampleProject
+
+CLd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject normal armv7
+s337557480.326871
+e337557486.033190
+r1
+xLd
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection185"Link /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject1dcb53e8b71eb441^997f08eeb71eb441^---0#0#0#--1352"Ld build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject normal armv7    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -filelist /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -liconv.2.4.0 /Users/xiaofengchen/Documents/OpenEars/OpenEarsLibrary/build/Debug-iphoneos/libOpenEarsLibrary.a -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/Objects-normal/armv7/OpenEarsSampleProject
+
+CProcessInfoPlistFile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/Info.plist OpenEarsSampleProject-Info.plist
+s337884794.326999
+e337884794.333995
+r1
+xProcessInfoPlistFile
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/Info.plist
+xOpenEarsSampleProject-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process OpenEarsSampleProject-Info.plist74ce537ab623b441^1e50567ab623b441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject-Info.plist0000000000000000^818"ProcessInfoPlistFile build/Debug-iphoneos/OpenEarsSampleProject.app/Info.plist OpenEarsSampleProject-Info.plist    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OpenEarsSampleProject-Info.plist -genpkginfo /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/ResourceRules.plist -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/Info.plist
+
+CProcessPCH /Users/xiaofengchen/Library/Developer/Xcode/DerivedData/OpenEarsSampleProject-elzaljalgcphthhfswbrrmsfxlxk/Index/PrecompiledHeaders/OpenEarsSampleProject_Prefix-busubhcknfppixdxsgzlopuywnba_ast/OpenEarsSampleProject_Prefix.pch.pth OpenEarsSampleProject_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/xiaofengchen/Library/Developer/Xcode/DerivedData/OpenEarsSampleProject-elzaljalgcphthhfswbrrmsfxlxk/Index/PrecompiledHeaders/OpenEarsSampleProject_Prefix-feaydiekzxelmnfepinjejxgvgcl_ast/OpenEarsSampleProject_Prefix.pch.pth OpenEarsSampleProject_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337557473.422481
+e337557475.508299
+r1
+xProcessPCH
+x/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch.gch
+xOpenEarsSampleProject_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile OpenEarsSampleProject_Prefix.pchb8746ce1b71eb441^cb3082e3b71eb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch0000000000000000^2572"ProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv6 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch -o /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-cltxufupvofjlxdchpmfcuontbrj/OpenEarsSampleProject_Prefix.pch.gch
+
+CProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337557475.509533
+e337557476.799666
+r1
+xProcessPCH
+x/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch.gch
+xOpenEarsSampleProject_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile OpenEarsSampleProject_Prefix.pcha0c182e3b71eb441^0dc6cce4b71eb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch0000000000000000^2572"ProcessPCH /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv7 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch -o /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-goghzmbdhjjfgxdnvlcpxpjtnfru/OpenEarsSampleProject_Prefix.pch.gch
+
+CProcessPCH++ /Users/xiaofengchen/Library/Developer/Xcode/DerivedData/OpenEarsSampleProject-elzaljalgcphthhfswbrrmsfxlxk/Index/PrecompiledHeaders/OpenEarsSampleProject_Prefix-aiauebcgazsyxadtyyzhvraonqhz_ast/OpenEarsSampleProject_Prefix.pch.pth OpenEarsSampleProject_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/xiaofengchen/Library/Developer/Xcode/DerivedData/OpenEarsSampleProject-elzaljalgcphthhfswbrrmsfxlxk/Index/PrecompiledHeaders/OpenEarsSampleProject_Prefix-cwncpwddnlorefcbjcrlnezhwnib_ast/OpenEarsSampleProject_Prefix.pch.pth OpenEarsSampleProject_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s337557476.422705
+e337557479.761921
+r1
+xProcessPCH++
+x/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch.gch
+xOpenEarsSampleProject_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile OpenEarsSampleProject_Prefix.pche65a6ce4b71eb441^711dc3e7b71eb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch0000000000000000^2597"ProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv7 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch -o /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dfjpflbxuftrcuagmjbxfxcktjuw/OpenEarsSampleProject_Prefix.pch.gch
+
+CProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s337557473.424315
+e337557475.703697
+r1
+xProcessPCH++
+x/var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch.gch
+xOpenEarsSampleProject_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile OpenEarsSampleProject_Prefix.pch53e86ce1b71eb441^1aa8b4e3b71eb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch0000000000000000^2597"ProcessPCH++ /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch.gch OpenEarsSampleProject_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.1.3 -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-generated-files.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-own-target-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-all-target-headers.hmap -iquote /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject-project-headers.hmap -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/include -I../OpenEarsLibrary/Classes/include -I../CMULibraries/flite-1.4-release/include -I../CMULibraries/sphinxbase-0.6.1/include -I../CMULibraries/pocketsphinx-0.6.1/include -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources/armv6 -I/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/DerivedSources -F/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/OpenEarsSampleProject_Prefix.pch -o /var/folders/x2/x2xzsi38HgCg-HKh1tgWtU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenEarsSampleProject_Prefix-dnjyfjfqrdcjvmahyyaitdcjawom/OpenEarsSampleProject_Prefix.pch.gch
+
+CProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/4EF5C4C3-247F-484B-9B10-F6757C6361E3.mobileprovision" /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+s337557494.634214
+e337557494.846039
+r1
+xProcessProductPackaging
+x/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/4EF5C4C3-247F-484B-9B10-F6757C6361E3.mobileprovision
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"ProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/4EF5C4C3-247F-484B-9B10-F6757C6361E3.mobileprovision" build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision3481a2f6b71eb441^f086d8f6b71eb441^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision0000204d2205f041^702"ProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/4EF5C4C3-247F-484B-9B10-F6757C6361E3.mobileprovision" build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/4EF5C4C3-247F-484B-9B10-F6757C6361E3.mobileprovision" -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+
+CProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision" /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+s337884794.378825
+e337884795.106134
+r1
+xProcessProductPackaging
+x/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"ProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision" build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovisiona114617ab623b441^74241b7bb623b441^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision0000000000000000^702"ProcessProductPackaging "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision" build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/xiaofengchen/Library/MobileDevice/Provisioning Profiles/5FB488D3-0912-49A7-B155-11D19EF608F5.mobileprovision" -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app/embedded.mobileprovision
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent
+s337884795.148865
+e337884795.172798
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcenta435267bb623b441^573d2c7bb623b441^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent0000000000000000^736"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/OpenEarsSampleProject.build/Debug-iphoneos/OpenEarsSampleProject.build/OpenEarsSampleProject.xcent
+
+CTouch /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+s337884795.109058
+e337884795.145899
+r1
+xTouch
+x/Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Touch /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.appd2fe1b7bb623b441^4b5a257bb623b441^---0#0#0#--375"Touch build/Debug-iphoneos/OpenEarsSampleProject.app    cd /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/xiaofengchen/Documents/OpenEars/OpenEarsSampleProject/build/Debug-iphoneos/OpenEarsSampleProject.app
+
